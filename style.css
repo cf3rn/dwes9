@@ -24,7 +24,7 @@ main {
   width: 80%;
   padding: 1rem;
   text-align: center;
-  height: calc(100vh - 450px); /* altura de la sección principal = 100% de la altura de la pantalla menos 150px */
+  height: calc(100vh - 450px);
 }
 
 footer {
@@ -49,7 +49,7 @@ button {
 button:hover {
   background-color: #D9530F;
 }
-En este ejemplo, el botón tendrá un fondo naranja brillante (#FE6613), texto blanco, bordes sin estilo,
+
 
 
 
