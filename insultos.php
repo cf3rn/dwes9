@@ -23,6 +23,13 @@
 	  
     </header>
    <main>
+	   
+	   /**
+	* Mediante file_get_contents llamamos a la api de 
+	*evilinsult que devuelve un json con insultos 
+	* @author Carlos Fernández
+	*/	
+	   
 	<?php
 		$url = "https://evilinsult.com/generate_insult.php?lang=en&type=json";
         $insults = file_get_contents($url);
